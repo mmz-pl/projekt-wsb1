@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a class="active" href="index.html">Kalkulator BMI</a></li>
+            <li><a href="logowanie.html">Zaloguj się</a></li>
+            <li><a href="rejestracja.html">Zarejestruj się</a></li>
+          </ul>
+
+
+    </div>
+
+
+
+
+<div class="formularz">
+<form action="">
+    <h1 style="display: flex; justify-content: center; align-items: center;">Kalkulator BMI</h1>
+    <label for="age">Podaj wiek:</label>
+    <input type="number" id="age" name="age" min="1" step="1" placeholder="lat">
+
+    <label for="gender">Podaj płeć:</label>
+    <select name="gender" id="gender">
+    <option value="woman">Kobieta</option>
+    <option value="men">Mężczyzna</option>
+    </select>   
+
+    <label for="height">Podaj wzrost:</label>
+    <input type="number" id="height" name="height" min="1"  step="1" placeholder="cm">
+
+    <label for="weight">Podaj wagę:</label>
+    <input type="number" id="weight" name="weight" min="1"  step="1" placeholder="kg">
+    <div class="buttons">
+    <input type="submit" value="Oblicz" id="button">
+    <input type="reset" value="Reset" id="button">
+    </div>
+</form>
+     
+    <div class="result">
+        <p>BMI wynosi:</p>
+    </div>
+    
+    </div>
+    
+</body>
+</html>

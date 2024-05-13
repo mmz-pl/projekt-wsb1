@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator BMI</title>
     <link rel="stylesheet" href="styl.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="menu">
@@ -38,13 +39,16 @@
     <label for="weight">Podaj wagę:</label>
     <input type="number" id="weight" name="weight" min="1"  step="1" placeholder="kg">
     <div class="buttons">
-    <input type="submit" value="Oblicz" id="button">
+    <input type="button" value="Oblicz" id="button">
     <input type="reset" value="Reset" id="button">
     </div>
 </form>
      
     <div class="result">
-        <p>BMI wynosi:</p>
+        <p>BMI wynosi: <span id="result"></span></p>
+    </div>
+    <div class="result2">
+        <p>BMI wynosi: <span id="result"></span></p>
     </div>
     
     </div>

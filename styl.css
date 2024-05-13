@@ -105,7 +105,7 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
   }
-  input[type=submit]{
+  input[type=button]{
   background-color: #41ad16;
   border: none;
   color: white;

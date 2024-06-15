@@ -15,13 +15,13 @@ function calculateBmi()  {
     document.querySelector("#result").innerHTML = result.toFixed(2); 
 
     if(result<16){
-        
+        document.querySelector("#result2").innerHTML = " wygłodzenie" 
     }else if(result>16 && result<16.99){
-        document.querySelector("#result2").innerHTML = " niedowaga" 
-     }else if(result>17 && result<18.49){
         document.querySelector("#result2").innerHTML = " wychudzenie" 
+     }else if(result>17 && result<18.49){
+        document.querySelector("#result2").innerHTML = " niedowaga" 
      }else if(result>18.5 && result<24.99){
-        document.querySelector("#result2").innerHTML = " wartość prawidłowa" 
+        document.querySelector("#result2").innerHTML = " waga prawidłowa" 
      }else if(result>25 && result<29.99){
         document.querySelector("#result2").innerHTML = " nadwaga" 
      }else if(result>30 && result<34.99){
@@ -32,6 +32,3 @@ function calculateBmi()  {
         document.querySelector("#result2").innerHTML = " otyłość III stopnia" 
      }
 }
-
-
-

@@ -113,6 +113,9 @@ select {
     background-color: #f1f1f1;
   }
   input[type=button]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #41ad16;
   border: none;
   color: white;

@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zarejestruj się</title>
+    <title>Zaloguj się</title>
     <link rel="stylesheet" href="styl.css">
 </head>
 <body>
     <div class="menu">
         <ul>
             <li><a href="index.html">Kalkulator BMI</a></li>
-            <li><a href="logowanie.html">Zaloguj się</a></li>
-            <li><a class="active" href="rejestracja.html">Zarejestruj się</a></li>
+            <li><a class="active" href="logowanie.html">Zaloguj się</a></li>
+            <li><a href="rejestracja.html">Zarejestruj się</a></li>
           </ul>
 
 
     </div>
+
+
+
+    <div class="formularz">
+        <form>
+            <h1 class="formularz_x1" >Zarejestruj się</h1>
+            <label for="Login">Login:</label>
+            <input type="text" id="login" name="login" min="1" step="1" placeholder="Podaj Login">
+
+            <label for="name_surname">Imię i Nazwisko</label>
+            <input type="text" id="name_sername" name="name_surname" min="1" step="1" placeholder="Podaj Imię i Nazwisko">
+
+            <label for="email">Adres e-mail</label>
+            <input type="email" id="email" name="email" min="1" step="1" placeholder="Podaj Adres E-mail">
+
+            <label for="gender">Płeć</label>
+            <input type="text" id="gender" name="gender" min="1" step="1" placeholder="Podaj Płeć">
+
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" min="8"  step="1" placeholder="Podaj Hasło">
+
+            <label for="date">Hasło:</label>
+            <input type="date" id="date" name="date" placeholder="Podaj Date Urodzenia">
+        
+           
+            <div class="buttons">
+            <input type="button" value="Zaloguj" id="button">
+            </div>
+        </form>
+    </div>
+
+
 </body>
 </html>

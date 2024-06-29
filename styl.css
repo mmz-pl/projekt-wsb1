@@ -43,6 +43,13 @@ ul {
     box-sizing: border-box;
     height: 100%;
   }
+  .formularz_x1{
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+
+
+  }
   .active {
     background-color: rgb(56, 139, 235);
   }
@@ -87,7 +94,7 @@ h1{
     color: white;
 }
 
-input[type=number]{
+input[type=number],[type=password],[type=text],[type=esmail],[type=date]{
   width: 100%;
   padding: 12px 20px;
   margin: 5px 0;

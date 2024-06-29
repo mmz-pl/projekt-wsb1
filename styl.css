@@ -94,7 +94,7 @@ h1{
     color: white;
 }
 
-input[type=number],[type=password],[type=text],[type=esmail],[type=date]{
+input[type=number],[type=password],[type=text],[type=email],[type=date]{
   width: 100%;
   padding: 12px 20px;
   margin: 5px 0;
